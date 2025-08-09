@@ -10,3 +10,14 @@ let anotherString = "   Another string";
 let hello = "Hello there!";
 let myName = "Michael";
 console.log(myString, anotherString, hello, myName);
+
+// Q3.2 - Using utility functions
+// Finding Length of myString
+myString.length;
+console.log(myString.length);
+// Finding first character which is T
+myString.charAt(0);
+console.log(myString.charAt(0));
+// Finding 11th character which is i
+myString.charAt(13);
+console.log(myString.charAt(13));

@@ -29,3 +29,11 @@ console.log(myString.slice(5, 10));
 // Using substring to get "the" from anotherString
 anotherString.substring(6, 9);
 console.log(anotherString.substring(6, 9));
+
+// Q3.4 - Change myName string to upper case, to lower case
+// Upper Case
+myName.toUpperCase();
+console.log(myName.toUpperCase());
+// Lower Case
+myName.toLowerCase();
+console.log(myName.toLowerCase());

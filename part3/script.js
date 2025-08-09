@@ -37,3 +37,17 @@ console.log(myName.toUpperCase());
 // Lower Case
 myName.toLowerCase();
 console.log(myName.toLowerCase());
+
+// Q3.5 - Use various utility methods to create new strings
+// Joining hello string and myName
+hello.concat(myName);
+console.log(hello.concat(myName));
+// Removing spaces in anotherString
+anotherString.trim();
+console.log(anotherString.trim());
+// Replacing "is a" with an empty space
+myString.replace("is a");
+console.log(myString.replace("is a", ""));
+// Spliting the spaces in myString
+myString.split([" "]);
+console.log(myString.split([" "]));

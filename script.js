@@ -12,6 +12,11 @@ let myMovie = {
 console.log(myMovie);
 
 // Q2.2 - Adding properties and data too object myMovie
-myMovie.rating = "5";
+myMovie.Rating = "5";
 myMovie.Summary = "World War II movie about the Normandy landings";
+console.log(myMovie);
+
+// Q2.3 - Updating properties in the object
+myMovie.Year = "1962";
+myMovie.Rating = "4";
 console.log(myMovie);

@@ -30,7 +30,7 @@ console.log(myString.slice(5, 10));
 anotherString.substring(6, 9);
 console.log(anotherString.substring(6, 9));
 
-// Q3.4 - Change myName string to upper case, to lower case
+// Q3.4 - Change myName string to upper case and to lower case
 // Upper Case
 myName.toUpperCase();
 console.log(myName.toUpperCase());

@@ -21,3 +21,11 @@ console.log(myString.charAt(0));
 // Finding 11th character which is i
 myString.charAt(13);
 console.log(myString.charAt(13));
+
+// Q3.3 - Use slice and substring
+// Using slice to get "is a" from myString
+myString.slice(5, 10);
+console.log(myString.slice(5, 10));
+// Using substring to get "the" from anotherString
+anotherString.substring(6, 9);
+console.log(anotherString.substring(6, 9));

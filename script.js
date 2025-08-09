@@ -20,3 +20,7 @@ console.log(myMovie);
 myMovie.Year = "1962";
 myMovie.Rating = "4";
 console.log(myMovie);
+
+// Q2.4 - Removing the summary property from object
+delete myMovie.Summary;
+console.log(myMovie);

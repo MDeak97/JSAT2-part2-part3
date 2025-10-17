@@ -75,3 +75,18 @@ fs.writeFile(fileName, textSave, function (error) {
     console.log("File '" + fileName + "' was saved succesffuly.");
   }
 });
+
+// Q3.8 - Read a text file
+
+// 1. Read the contents of the file
+fs.readFile(fileName, "utf8", function (error, data) {
+  // 2. Check if there is an error
+  if (error) {
+    console.log("An error has occured");
+    console.log(error);
+  } else {
+    // 3. Display what was read from the text file
+    console.log("File contents.....");
+    console.log(data);
+  }
+});

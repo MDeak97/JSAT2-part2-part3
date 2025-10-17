@@ -52,4 +52,4 @@ console.log(myString.replace("is a", ""));
 myString.split([" "]);
 console.log(myString.split([" "]));
 
-// Q3.6 - See attached word document for algorithms on saving a text file and reading a text file
+// Q3.6 - See attached word document for algorithms on saving a text file and reading a text file.

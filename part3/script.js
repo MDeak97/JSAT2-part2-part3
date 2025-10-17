@@ -1,7 +1,7 @@
 // File: script.js
 // Description: File to answer questions from Part 3 of assessment JSAT 2
 // Author: Michael Deak
-// Date: 10/08/2025
+// Date: 17/10/2025
 // Version: 1.00
 
 // Q3.1 - Define strings
@@ -51,3 +51,5 @@ console.log(myString.replace("is a", ""));
 // Spliting the spaces in myString
 myString.split([" "]);
 console.log(myString.split([" "]));
+
+// Q3.6 - See attached word document for algorithms on saving a text file and reading a text file

@@ -53,3 +53,25 @@ myString.split([" "]);
 console.log(myString.split([" "]));
 
 // Q3.6 - See attached word document for algorithms on saving a text file and reading a text file.
+
+// Q3.7 - Write a text file
+
+// 1: Import file system module
+const fs = require("fs");
+
+// 2: Creating a string to save to a file
+const textSave = "Saved into 'output.txt'";
+
+// 3. Define file name
+const fileName = "output.txt";
+
+// 4. Writing the text to the file
+fs.writeFile(fileName, textSave, function (error) {
+  // Check if an error occured during writing
+  if (error) {
+    console.log("An error occured while writing the file");
+  } else {
+    // Confirm file was written successfully
+    console.log("File '" + fileName + "' was saved succesffuly.");
+  }
+});

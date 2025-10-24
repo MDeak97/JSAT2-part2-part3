@@ -20,7 +20,7 @@ myString.charAt(0);
 console.log(myString.charAt(0));
 // Finding 11th character which is i
 myString.charAt(13);
-console.log(myString.charAt(13));
+console.log(myString.charAt(11));
 
 // Q3.3 - Use slice and substring
 // Using slice to get "is a" from myString

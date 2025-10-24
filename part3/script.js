@@ -1,8 +1,8 @@
 // File: script.js
 // Description: File to answer questions from Part 3 of assessment JSAT 2
 // Author: Michael Deak
-// Date: 17/10/2025
-// Version: 1.00
+// Date: 24/10/2025
+// Version: 1.1.0
 
 // Q3.1 - Define strings
 let myString = "This is a string";
@@ -18,9 +18,9 @@ console.log(myString.length);
 // Finding first character which is T
 myString.charAt(0);
 console.log(myString.charAt(0));
-// Finding 11th character which is i
+// Finding 11th character which is t
 myString.charAt(13);
-console.log(myString.charAt(13));
+console.log(myString.charAt(11));
 
 // Q3.3 - Use slice and substring
 // Using slice to get "is a" from myString
@@ -46,7 +46,7 @@ console.log(hello.concat(myName));
 anotherString.trim();
 console.log(anotherString.trim());
 // Replacing "is a" with an empty space
-myString.replace("is a");
+myString.replace("is a", "");
 console.log(myString.replace("is a", ""));
 // Spliting the spaces in myString
 myString.split([" "]);

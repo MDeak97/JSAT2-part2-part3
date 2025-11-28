@@ -1,7 +1,7 @@
 // File: script.js
 // Description: File to answer questions from Part 3 of assessment JSAT 2
 // Author: Michael Deak
-// Date: 24/10/2025
+// Date: 28/11/2025
 // Version: 1.1.0
 
 // Q3.1 - Define strings
@@ -18,9 +18,9 @@ console.log(myString.length);
 // Finding first character which is T
 myString.charAt(0);
 console.log(myString.charAt(0));
-// Finding 11th character which is t
-myString.charAt(13);
-console.log(myString.charAt(11));
+// Finding 11th character which is s
+myString.charAt(10);
+console.log(myString.charAt(10));
 
 // Q3.3 - Use slice and substring
 // Using slice to get "is a" from myString

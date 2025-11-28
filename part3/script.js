@@ -18,7 +18,7 @@ console.log(myString.length);
 // Finding first character which is T
 myString.charAt(0);
 console.log(myString.charAt(0));
-// Finding 11th character which is t
+// Finding 11th character which is s
 myString.charAt(10);
 console.log(myString.charAt(10));
 
